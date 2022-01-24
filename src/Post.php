@@ -20,18 +20,14 @@ class Post extends Plugin
      */
     public static function getPublicId(int $post_id = null): int
     {
-        if (true === is_null($post_id)) {
-            $post_id = get_the_ID();
-        }
+        $recycle_id = intval(get_post_meta($post_id, 'recycle_id', true));
 
-        $post_revisions = wp_get_post_revisions($post_id);
+        if (true === empty($recycle_id)) {
+            update_post_meta($post_id, 'recycle_id', $post_id);
 
-        $latest_revision = array_shift($post_revisions);
-
-        if (true === empty($latest_revision) || false === $latest_revision instanceof \WP_Post) {
             return $post_id;
         }
 
-        return $latest_revision->ID;
+        return $recycle_id;
     }
 }
