@@ -1,0 +1,16 @@
+{
+  "name": "greatscott-content-recycler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^19.2.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

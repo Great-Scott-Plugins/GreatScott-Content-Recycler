@@ -1,0 +1,22 @@
+{
+  "name": "great-scott-plugins/greatscott-recycler",
+  "description": "Content Recycler plugin.",
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=7.3.5",
+    "great-scott-plugins/wordpress-plugin": "1.*"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Great-Scott-Plugins/WordPress-Plugin.git"
+    }
+  ],
+  "license": "GPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "GreatScottPlugins\\GreatScottContentRecycler\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
