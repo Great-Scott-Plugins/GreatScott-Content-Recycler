@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "great-scott-plugins/wordpress-plugin",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Great-Scott-Plugins/WordPress-Plugin.git",
-                "reference": "1f93c6726cb785ce5266225710d136af71e31100"
+                "reference": "4128860bc5603cd55de8193d6003e5637fa2803b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Great-Scott-Plugins/WordPress-Plugin/zipball/1f93c6726cb785ce5266225710d136af71e31100",
-                "reference": "1f93c6726cb785ce5266225710d136af71e31100",
+                "url": "https://api.github.com/repos/Great-Scott-Plugins/WordPress-Plugin/zipball/4128860bc5603cd55de8193d6003e5637fa2803b",
+                "reference": "4128860bc5603cd55de8193d6003e5637fa2803b",
                 "shasum": ""
             },
             "require": {
@@ -42,10 +42,10 @@
             ],
             "description": "Library to use as basis for WordPress plugins.",
             "support": {
-                "source": "https://github.com/Great-Scott-Plugins/WordPress-Plugin/tree/1.0.1",
+                "source": "https://github.com/Great-Scott-Plugins/WordPress-Plugin/tree/1.0.2",
                 "issues": "https://github.com/Great-Scott-Plugins/WordPress-Plugin/issues"
             },
-            "time": "2022-01-22T23:49:48+00:00"
+            "time": "2022-01-29T09:38:20+00:00"
         }
     ],
     "packages-dev": [],

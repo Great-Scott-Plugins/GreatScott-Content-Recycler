@@ -39,4 +39,4 @@ use GreatScottPlugins\GreatScottContentRecycler\ContentRecyclerPlugin;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-ContentRecyclerPlugin::load(__FILE__);
+ContentRecyclerPlugin::load();

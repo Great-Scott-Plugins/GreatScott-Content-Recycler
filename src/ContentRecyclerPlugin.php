@@ -42,11 +42,11 @@ class ContentRecyclerPlugin extends Plugin
      */
     public function registerAdminScripts()
     {
-        $build_asset = require(self::dir() . 'build/post-edit.asset.php');
+        $build_asset = require(self::dir('build/post-edit.asset.php'));
 
         wp_register_script(
             'content-recycler-post-edit',
-            self::url() . 'build/post-edit.js',
+            self::url('build/post-edit.js'),
             $build_asset['dependencies'],
             $build_asset['version']
         );
